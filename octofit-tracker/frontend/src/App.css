@@ -1,0 +1,57 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(180deg,#f8fafc 0%, #ffffff 100%);
+  color: #333;
+}
+
+/* Page layout */
+.container {
+  max-width: 1100px;
+}
+
+/* Top navigation */
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+/* Card and table look */
+.app-card {
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(60,64,67,0.08);
+  margin-bottom: 1rem;
+}
+
+.table-wrapper {
+  padding: 1rem;
+}
+
+table.table thead th {
+  border-bottom: 2px solid rgba(0,0,0,0.06);
+}
+
+table.table tbody tr:hover {
+  background-color: rgba(99,102,241,0.04);
+}
+
+.page-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.controls {
+  display:flex;
+  gap:0.5rem;
+  align-items:center;
+}
+
+.muted {
+  color: #6b7280;
+}
+
+/* small responsive tweaks */
+@media (max-width: 576px) {
+  .container { padding-left: 0.5rem; padding-right: 0.5rem }
+}
+
